@@ -1,3 +1,5 @@
+package Thread;
+
 class MyThread extends Thread{
     private String name;
     public MyThread(String name){
