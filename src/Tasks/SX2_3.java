@@ -88,7 +88,7 @@ public class SX2_3 {
             int age = (Calendar.getInstance().get(Calendar.YEAR) - year) - 1;
             person.setAge(age);
         }
-        System.out.println("您的身份证号为:"+id);
-        System.out.println("由此您的年龄为:"+person.getAge()+",性别:"+person.getSex());
+        System.out.println("您的身份证号为:" + id);
+        System.out.println("由此您的年龄为:" + person.getAge() + ",性别:" + person.getSex());
     }
 }
