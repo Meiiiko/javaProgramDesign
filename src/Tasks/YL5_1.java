@@ -28,9 +28,9 @@ public class YL5_1 {
 
     public static int getMax(int[] array) {
         int max = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > max) {
-                max = array[i];
+        for (int j : array) {
+            if (j > max) {
+                max = j;
             }
         }
         return max;
