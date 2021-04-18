@@ -10,8 +10,8 @@ public class YL7_2 {
         FileInputStream fileInputStream = null;
         FileOutputStream fileOutputStream = null;
         try {
-            fileInputStream = new FileInputStream("C:\\Users\\user\\Pictures\\100MSDCF\\DateTwo.jpg");
-            fileOutputStream = new FileOutputStream("C:\\Users\\user\\Pictures\\100MSDCF\\DateOTwo.jpg");
+            fileInputStream = new FileInputStream("C:\\Users\\user\\Pictures\\树的早晨\\第二次约会1.jpg");
+            fileOutputStream = new FileOutputStream("C:\\Users\\user\\Pictures\\树的早晨\\DateTwo.jpg");
             byte[] bytes = new byte[1024];
             int len = 0;
             while ((len = fileInputStream.read(bytes)) != -1) {
